@@ -3,6 +3,23 @@
     Author     : Игорь
 */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    margin-left: 1em;
+    
+}
+
+#main-doc {
+    position: relative;
+    margin-left: 18em;
+}
+
 code {
-    white-space: pre;
+ 
+    
 }
