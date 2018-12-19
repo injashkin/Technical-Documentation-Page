@@ -21,7 +21,6 @@ body {
     padding-bottom: 1em;
     height: 97%;
     overflow-y: auto;
-
 }
 
 #navbar header {
@@ -77,8 +76,7 @@ pre {
     padding-left: 1em;
     padding: 1em 0 1em 1em;  
     width: 90%;    
-    overflow: auto;
-    border: #000000 solid 1px;
+    overflow: auto;    
 }
 
 
@@ -110,5 +108,4 @@ pre {
         background-color: #cccccc;
         opacity: 0.8;
     }
-
 }
