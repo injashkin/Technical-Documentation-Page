@@ -8,18 +8,52 @@
     padding: 0;
 }
 
+body {
+    font: 1em/1.4 Helvetica, sans-serif;
+    min-width: 320px;    
+}
+
 #page {
     display: flex;
+    border: 1px black solid;
 }
 
 #navbar {
     position: fixed;
     top: 0;
-    margin-left: 1em;
+    margin-left: 2em;
+    border: 1px black solid;    
 }
 
+#navbar li {
+    list-style-position: inside;
+}
+
+
 #main-doc {
-    margin-left: 15em;
+    margin-left: 20em;
+    border: 1px black solid;
+}
+
+h1, h2, h3 {
+    margin: 0.7em 0 0.2em;
+    border: 1px black solid;
+}
+
+p {
+    margin: 0.5em 0;
+    border: 1px black solid;
+}
+
+#main-doc ul {
+    margin: 0.5em 1em;
+    border: 1px black solid;
+}
+
+
+#main-doc li {
+    list-style-position: inside;
+    border: 1px black solid;
 }
 
 
@@ -36,4 +70,6 @@
     #main-doc {
         margin-left: 1em;
     }
+
+
 }
